@@ -17,5 +17,12 @@
       },
       "console": "integratedTerminal"
     }
+  ],
+  "compounds": [
+    {
+      "name": "Start Backend and Frontend",
+      "configurations": ["FastAPI: Uvicorn"],
+      "preLaunchTask": "Start React (npm run dev)"
+    }
   ]
 }
